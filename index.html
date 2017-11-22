@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+
+  <meta name="google-site-verification" content="MyTjQ3exLQ8b6V-GJ9VTRlInaPkcOEv_kS19HP5DGsw" />
+
+  <!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-PNH8KM5');</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-97186177-2"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-97186177-2');
+	</script>
+
+  <!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4052471.js"></script>
+  <!-- End of HubSpot Embed Code -->
+    
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Erik Hays">
+
+  <!-- STYLESHEET REFERENCES -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+
+<meta name="description" content=" ">
+
+<link rel="canonical" href="http://fortuneandthebold.com/">
+
+<title>FBD</title>
+
+</head>
+
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PNH8KM5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header class="header">
+
+    <div id="nav-icon-wrapper">
+      <div id="nav-icon">
+            <span></span><span></span><span></span><span></span>
+      </div>
+    </div>
+
+    <nav role="navigation">
+      <ul>
+
+        <!--
+
+        <?php 
+
+          echo '<li class="',($page=='services' ? 'active"' : '"'), '> <a class="grotesk" title="Services" href="/services">Services</a></li>'
+
+        ?>
+
+        <?php 
+
+          echo '<li class="',($page=='parts' ? 'active"' : '"'), '> <a class="grotesk" title="Parts" href="/parts">Parts</a></li>'
+
+        ?>
+
+        <?php 
+
+          echo '<li class="',($page=='info' ? 'active"' : '"'), '> <a class="grotesk" title="Info" href="/info">Info</a></li>'
+
+        ?>
+
+        <?php 
+
+          echo '<li class="',($page=='quote' ? 'active"' : '"'), '> <a class="grotesk caps" title="Quote" href="/quote"><i class="fa fa-wrench" aria-hidden="true"></i>Free Quote</a></li>'
+
+        ?>
+
+      -->
+
+            </ul>  
+    </nav>
+ </header>
+
+
+<div id="container">
+
+<h1>FB | Digital</h1>
+
+<a href="/giveaway.html">Link to Giveaway</a>
+
+
+  
+</div>
+<footer class="footer">
+
+	
+</footer>
+      
+
+      <!-- SCRIPTS -->
+      <!--[if lt IE 9]>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+       <![endif]-->
+      <script src="https://use.fontawesome.com/7cf95ea69f.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-messaging.js"></script>
+
+<!-- Leave out Storage -->
+<!-- <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-storage.js"></script> -->
+
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCPk1sK5mwrBxqD-kgmy_YZ65wW79cKSgg",
+    authDomain: "fb-digital.firebaseapp.com",
+    databaseURL: "https://fb-digital.firebaseio.com",
+    projectId: "fb-digital",
+    storageBucket: "fb-digital.appspot.com",
+    messagingSenderId: "592720470892"
+  };
+  firebase.initializeApp(config);
+
+  var provider = new firebase.auth.GoogleAuthProvider();
+
+  firebase.auth().signInWithPopup(provider).then(function(result) {
+  // This gives you a Google Access Token. You can use it to access the Google API.
+  var token = result.credential.accessToken;
+  // The signed-in user info.
+  var user = result.user;
+  // ...
+}).catch(function(error) {
+  // Handle Errors here.
+  var errorCode = error.code;
+  var errorMessage = error.message;
+  // The email of the user's account used.
+  var email = error.email;
+  // The firebase.auth.AuthCredential type that was used.
+  var credential = error.credential;
+  // ...
+});
+</script>
+
+
+
+
+	</body>
+</html>
+
+  

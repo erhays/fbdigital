@@ -1,0 +1,112 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+ }
+
+a {
+  text-decoration: none;
+}
+
+i {
+  padding-right: 0.7rem;
+}
+
+h1 {
+  font-weight: inherit;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: url('/assets/imgs/water-bg.jpg');
+}
+
+/*
+                                                      FONTS
+*/
+
+body {
+  font-family: 'Raleway', sans-serif, system;
+  font-weight: normal;
+}
+
+.caps {
+  text-transform: uppercase;
+}
+
+/*
+                                                    HEADER 
+*/
+
+header, header a, nav, nav ul, nav ul li {
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+
+  display: none;
+}
+
+/*
+                                                    FOOTER 
+*/
+
+#container {
+  overflow: hidden;
+}
+
+#form-container {
+  display: block;
+  height: 96vh;
+  margin: 2vh 2vw;
+  padding: 0;
+  width: 96vw;
+}
+
+#form-container div:first-child {
+  margin: 0;
+  display: inline-block;
+  width: 75%;
+  background: #ffffff;
+}
+
+#form-container div:last-child {
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background: url('/assets/imgs/form-aside.jpg');
+}
+
+
+/*
+                                                    MOBILE
+*/
+
+@media only screen and (max-width: 1000px) {
+
+
+}
+
+@media only screen and (max-width: 800px) {
+
+ 
+}
+
